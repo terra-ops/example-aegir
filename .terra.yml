@@ -1,0 +1,8 @@
+document_root: hostmaster
+hooks:
+  build: |
+    drush make aegir.make hostmaster
+
+  enable_first: |
+    drush {{alias}} site-install hostmaster --db-url=mysql://drupal:drupal@database/drupal -y
+    drush {{aÅlias}} uli
