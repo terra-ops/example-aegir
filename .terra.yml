@@ -1,7 +1,7 @@
-document_root: hostmaster
+document_root: hostmaster-7.x-3.x
 hooks:
   build: |
-    drush make aegir.make hostmaster
+    drush make aegir.make hostmaster-7.x-3.x
 
   enable_first: |
     drush {{alias}} site-install hostmaster --db-url=mysql://drupal:drupal@database/drupal -y
