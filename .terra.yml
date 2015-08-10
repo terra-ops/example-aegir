@@ -5,4 +5,4 @@ hooks:
 
   enable_first: |
     drush {{alias}} site-install hostmaster --db-url=mysql://drupal:drupal@database/drupal -y
-    drush {{aÅlias}} uli
+    drush {{alias}} uli
